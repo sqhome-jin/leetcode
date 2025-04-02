@@ -1,20 +1,20 @@
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-public class SolutionTest {
-    private Solution solution = new Solution();
+public class BinarySearchSolutionTest {
+    private BinarySearchSolution solution = new BinarySearchSolution();
 
     @Test
-    public void testExample1() {
+    public void testNormalSearch() {
         int[] nums = { -1, 0, 3, 5, 9, 12 };
         int target = 9;
         assertEquals(4, solution.search(nums, target));
     }
 
     @Test
-    public void testExample2() {
+    public void testTargetNotFound() {
         int[] nums = { -1, 0, 3, 5, 9, 12 };
-        int target = 3;
+        int target = 2;
         assertEquals(-1, solution.search(nums, target));
     }
 
@@ -33,21 +33,21 @@ public class SolutionTest {
     }
 
     @Test
-    public void testTargetAtStart() {
+    public void testFirstElement() {
         int[] nums = { 1, 3, 5, 7, 9 };
         int target = 1;
         assertEquals(0, solution.search(nums, target));
     }
 
     @Test
-    public void testTargetAtEnd() {
+    public void testLastElement() {
         int[] nums = { 1, 3, 5, 7, 9 };
         int target = 9;
         assertEquals(4, solution.search(nums, target));
     }
 
     @Test
-    public void testNegativeNumbers() {
+    public void testAllNegative() {
         int[] nums = { -5, -3, -1, 0, 2, 4 };
         int target = -3;
         assertEquals(1, solution.search(nums, target));

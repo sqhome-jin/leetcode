@@ -1,18 +1,18 @@
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-public class SolutionTest {
-    private Solution solution = new Solution();
+public class SortedArraySquaresTest {
+    private SortedArraySquares solution = new SortedArraySquares();
 
     @Test
-    public void testExample1() {
+    public void testMixedNumbers() {
         int[] nums = { -4, -1, 0, 3, 10 };
         int[] expected = { 0, 1, 9, 16, 100 };
         assertArrayEquals(expected, solution.sortedSquares(nums));
     }
 
     @Test
-    public void testExample2() {
+    public void testMixedLargeNumbers() {
         int[] nums = { -7, -3, 2, 3, 11 };
         int[] expected = { 4, 9, 9, 49, 121 };
         assertArrayEquals(expected, solution.sortedSquares(nums));

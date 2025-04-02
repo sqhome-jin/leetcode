@@ -1,4 +1,4 @@
-class Solution {
+class ArrayElementRemover {
     /**
      * 移除元素
      * 

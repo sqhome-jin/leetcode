@@ -1,4 +1,4 @@
-class Solution {
+class BinarySearchSolution {
     /**
      * 二分查找
      * 
