@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SolutionTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-04-02T12:46:21.450Z" hostname="Jins-MBP-13.local" time="0.018">
+  <properties/>
+  <testcase name="testSingleElement" classname="SolutionTest" time="0.016"/>
+  <testcase name="testEmptyArray" classname="SolutionTest" time="0.0"/>
+  <testcase name="testExample1" classname="SolutionTest" time="0.0"/>
+  <testcase name="testExample2" classname="SolutionTest" time="0.0"/>
+  <testcase name="testAllPositive" classname="SolutionTest" time="0.0"/>
+  <testcase name="testAllNegative" classname="SolutionTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

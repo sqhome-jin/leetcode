@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SolutionTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2025-04-02T09:55:26.531Z" hostname="Jins-MBP-13.local" time="0.01">
+  <properties/>
+  <testcase name="testSingleElement" classname="SolutionTest" time="0.005"/>
+  <testcase name="testEmptyArray" classname="SolutionTest" time="0.001"/>
+  <testcase name="testExample1" classname="SolutionTest" time="0.001"/>
+  <testcase name="testExample2" classname="SolutionTest" time="0.0"/>
+  <testcase name="testTargetAtStart" classname="SolutionTest" time="0.001"/>
+  <testcase name="testLargeArray" classname="SolutionTest" time="0.0"/>
+  <testcase name="testTargetAtEnd" classname="SolutionTest" time="0.0"/>
+  <testcase name="testNegativeNumbers" classname="SolutionTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,46 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+}
+
+allprojects {
+    apply plugin: 'java'
+    apply plugin: 'jacoco'
+    repositories {
+        mavenCentral()
+    }
+}
+
+subprojects {
+    sourceSets {
+        main {
+            java {
+                srcDirs = ['src/main']
+            }
+        }
+        test {
+            java {
+                srcDirs = ['src/test']
+            }
+        }
+    }
+
+    dependencies {
+        testImplementation 'junit:junit:4.13.2'
+    }
+    
+    test {
+        useJUnit()
+        finalizedBy jacocoTestReport
+    }
+
+    jacocoTestReport {
+        dependsOn test
+        reports {
+            xml.required = false
+            csv.required = false
+            html.required = true
+        }
+    }
+} 
