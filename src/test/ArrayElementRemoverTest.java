@@ -1,4 +1,7 @@
 import org.junit.jupiter.api.Test;
+
+import solutions.ArrayElementRemover;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class ArrayElementRemoverTest {

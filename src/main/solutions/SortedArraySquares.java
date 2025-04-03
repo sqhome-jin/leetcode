@@ -1,3 +1,6 @@
+package solutions;
+
+
 public class SortedArraySquares {
     public int[] sortedSquares(int[] nums) {
         int right = nums.length - 1; // 修改：初始值应该是 length-1

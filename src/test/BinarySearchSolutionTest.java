@@ -1,4 +1,7 @@
 import org.junit.jupiter.api.Test;
+
+import solutions.BinarySearchSolution;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class BinarySearchSolutionTest {

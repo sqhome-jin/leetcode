@@ -1,4 +1,7 @@
 import org.junit.jupiter.api.Test;
+
+import solutions.SortedArraySquares;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class SortedArraySquaresTest {
