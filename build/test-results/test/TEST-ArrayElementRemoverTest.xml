@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ArrayElementRemoverTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-04-03T06:41:07.387Z" hostname="Jins-MBP-13.local" time="0.043">
+  <properties/>
+  <testcase name="testSingleElement()" classname="ArrayElementRemoverTest" time="0.026"/>
+  <testcase name="testEmptyArray()" classname="ArrayElementRemoverTest" time="0.001"/>
+  <testcase name="testAllDifferent()" classname="ArrayElementRemoverTest" time="0.001"/>
+  <testcase name="testNormalRemove()" classname="ArrayElementRemoverTest" time="0.001"/>
+  <testcase name="testAllSameElements()" classname="ArrayElementRemoverTest" time="0.001"/>
+  <testcase name="testNoMatch()" classname="ArrayElementRemoverTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

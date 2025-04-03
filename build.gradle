@@ -1,46 +1,42 @@
-buildscript {
-    repositories {
-        mavenCentral()
-    }
+plugins {
+    id 'java'
 }
 
-allprojects {
-    apply plugin: 'java'
-    apply plugin: 'jacoco'
-    repositories {
-        mavenCentral()
-    }
+group = 'com.jinsun.leetcode'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
 }
 
-subprojects {
-    sourceSets {
-        main {
-            java {
-                srcDirs = ['src/main']
-            }
-        }
+dependencies {
+    testImplementation('org.junit.jupiter:junit-jupiter-api:5.8.1')
+    testRuntimeOnly('org.junit.jupiter:junit-jupiter-engine:5.8.1')
+}
+
+testing {
+    suites {
         test {
-            java {
-                srcDirs = ['src/test']
-            }
+            useJUnitJupiter()
         }
     }
+}
 
-    dependencies {
-        testImplementation 'junit:junit:4.13.2'
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
     }
-    
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src/main']
+        }
+    }
     test {
-        useJUnit()
-        finalizedBy jacocoTestReport
-    }
-
-    jacocoTestReport {
-        dependsOn test
-        reports {
-            xml.required = false
-            csv.required = false
-            html.required = true
+        java {
+            srcDirs = ['src/test']
         }
     }
-} 
+}

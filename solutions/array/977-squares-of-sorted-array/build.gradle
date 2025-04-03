@@ -1,2 +1,0 @@
-// 继承根项目的配置
-apply from: rootProject.file('build.gradle') 
