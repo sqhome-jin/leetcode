@@ -1,4 +1,5 @@
-class BinarySearchSolution {
+
+public class BinarySearchSolution {
     /**
      * 二分查找
      * 

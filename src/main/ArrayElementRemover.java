@@ -1,4 +1,5 @@
-class ArrayElementRemover {
+
+public class ArrayElementRemover {
     /**
      * 移除元素
      * 
