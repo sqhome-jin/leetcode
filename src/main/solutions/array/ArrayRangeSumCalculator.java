@@ -1,4 +1,4 @@
-package solutions;
+package solutions.array;
 
 /**
  * 58. 区间和

@@ -1,6 +1,6 @@
 import org.junit.jupiter.api.Test;
 
-import solutions.BinarySearchSolution;
+import solutions.array.BinarySearchSolution;
 
 import static org.junit.jupiter.api.Assertions.*;
 

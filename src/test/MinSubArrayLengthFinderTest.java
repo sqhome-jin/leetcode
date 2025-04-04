@@ -1,5 +1,7 @@
 import org.junit.jupiter.api.Test;
-import solutions.MinSubArrayLengthFinder;
+
+import solutions.array.MinSubArrayLengthFinder;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class MinSubArrayLengthFinderTest {

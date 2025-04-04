@@ -1,5 +1,7 @@
 import org.junit.jupiter.api.Test;
-import solutions.ArrayRangeSumCalculator;
+
+import solutions.array.ArrayRangeSumCalculator;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class ArrayRangeSumCalculatorTest {

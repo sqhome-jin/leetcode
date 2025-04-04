@@ -1,4 +1,4 @@
-package solutions;
+package solutions.array;
 
 /**
  * 44. 开发商购买土地
@@ -6,6 +6,16 @@ package solutions;
  * 题目描述：
  * 在一个城市区域内，被划分成了n * m个连续的区块，每个区块都拥有不同的权值，代表着其土地价值。
  * 需要将区域按横向或纵向划分成两个子区域分配给A公司和B公司，使得两个子区域的土地总价值之差最小。
+ * 
+ * 示例：
+ * 输入：n = 3, m = 3
+ * land = [
+ *   [1, 2, 3],
+ *   [2, 1, 3],
+ *   [1, 2, 3]
+ * ]
+ * 输出：0
+ * 解释：可以将区域按照如下方式划分，使得两个子区域的土地总价值之差为0
  * 
  * 限制条件：
  * - 只允许横向或纵向划分
@@ -18,6 +28,7 @@ public class LandDivisionCalculator {
     
     /**
      * 计算两个子区域土地总价值的最小差值
+     * 使用预处理和动态规划的思想实现
      * 
      * @param n 区域行数
      * @param m 区域列数
@@ -49,11 +60,12 @@ public class LandDivisionCalculator {
         return minDiff;
     }
 
-   /**
+    /**
      * 计算在指定分割点的两部分和的差值
+     * 使用前缀和的思想优化计算效率
      * 
      * @param nums 待分割的数组，可以是行和数组或列和数组
-     * @param divisionIndex 分割点索引，将数组分为 [0,divisionIndex] 和 [divisionIndex+1,length-1] 两部分
+     * @param divisionIndex 分割点索引，将数组分为左右（或上下）两部分
      * @return 两部分和的绝对差值
      */
     private int calculateDifference(int[] nums, int divisionIndex) {
@@ -72,5 +84,4 @@ public class LandDivisionCalculator {
         
         return Math.abs(leftSum - rightSum);  // 返回两部分和的绝对差值
     }
-   
 }

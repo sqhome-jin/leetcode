@@ -1,5 +1,7 @@
 import org.junit.jupiter.api.Test;
-import solutions.LandDivisionCalculator;
+
+import solutions.array.LandDivisionCalculator;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class LandDivisionCalculatorTest {
