@@ -1,0 +1,30 @@
+请按照下面的格式基于我给你的问题帮我创建一个实现类和测试类：
+对于实现类：
+1. 实现类放在main/solutions下面。
+2. 实现类命名参考：ArrayElementRemover.java, BinarySearchSolution.java, SortedArraySquares.java。
+3. 实现类内部方法命名参考：removeElement, search, sortedSquares。
+4. 不要实现方案，帮我初始化一下基本结构就可以。
+5. 实现类内的注释里帮我把题目和要求写清楚。
+6. 方法的返回值和参数的说明也写清楚。
+对于测试类：
+1. 测试类放在test下面。
+2. 测试类命名参考：ArrayElementRemoverTest.java, BinarySearchSolutionTest.java, SortedArraySquaresTest.java。
+3. 测试类内部方法命名参考：testRemoveElement, testEmptyArray, testMixedNumbers。
+4. 测试类内的注释里帮我把当前测试的场景解释清楚。
+
+下面是题目：
+“209.长度最小的子数组
+力扣题目链接
+
+给定一个含有 n 个正整数的数组和一个正整数 s ，找出该数组中满足其和 ≥ s 的长度最小的 连续 子数组，并返回其长度。如果不存在符合条件的子数组，返回 0。
+
+示例：
+
+输入：s = 7, nums = [2,3,1,2,4,3]
+输出：2
+解释：子数组 [4,3] 是该条件下的长度最小的子数组。
+提示：
+
+1 <= target <= 10^9
+1 <= nums.length <= 10^5
+1 <= nums[i] <= 10^5”
