@@ -1,3 +1,4 @@
+package array;
 import org.junit.jupiter.api.Test;
 
 import solutions.array.SpiralMatrixGenerator;
